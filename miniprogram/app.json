@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "routers/home/index",
+    "routers/home/product/index",
+    "routers/cart/index",
+    "routers/mine/index",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#ea986c",
+    "backgroundColor": "",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "routers/home/index",
+        "text": "首页",
+        "iconPath": "images/tabs/home.png",
+        "selectedIconPath": "images/tabs/homeed.png"
+      },
+      {
+        "pagePath": "routers/cart/index",
+        "text": "购物车",
+        "iconPath": "images/tabs/cart-Empty.png",
+        "selectedIconPath": "images/tabs/cart-Emptyed.png"
+      },
+      {
+        "pagePath": "routers/mine/index",
+        "text": "我的",
+        "iconPath": "images/tabs/account.png",
+        "selectedIconPath": "images/tabs/accounted.png"
+      }
+    ]
+  }
+}

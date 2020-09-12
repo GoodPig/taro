@@ -1,0 +1,12 @@
+.cart{
+    position: fixed;
+    bottom: 40rpx;
+    right: 40rpx;
+}
+.footer-no-choose{
+    text-align: right;
+}
+
+.add-plut .van-button--normal{
+    width: 150rpx;
+}

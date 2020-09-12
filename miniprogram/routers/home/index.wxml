@@ -1,0 +1,6 @@
+<van-grid column-num="2" border="{{ false }}" square>
+  <van-grid-item use-slot wx:for="{{ 10 }}" wx:for-item="index" wx:key="index" url="/routers/home/product/index">
+    <van-image width="45vw" height="45vw" fit="contain" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+    <view>hello</view>
+  </van-grid-item>
+</van-grid>
