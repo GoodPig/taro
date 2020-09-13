@@ -28,6 +28,11 @@ Page({
   },
   onPullDownRefresh() {
     this.getData(pageNo, size)
+  },
+  toCart() {
+    wx.switchTab({
+      url: '/routers/cart/index'
+    })
   }
 
 })

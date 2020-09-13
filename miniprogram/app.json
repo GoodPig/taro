@@ -3,6 +3,7 @@
     "routers/home/index",
     "routers/home/product/index",
     "routers/cart/index",
+    "routers/order/index",
     "routers/mine/index",
     "pages/index/index",
     "pages/userConsole/userConsole",
@@ -26,7 +27,6 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2",
   "tabBar": {
     "color": "#8a8a8a",
     "selectedColor": "#ea986c",
@@ -52,5 +52,6 @@
         "selectedIconPath": "images/tabs/accounted.png"
       }
     ]
-  }
+  },
+  "component": true
 }

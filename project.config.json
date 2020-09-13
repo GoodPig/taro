@@ -77,6 +77,13 @@
           "id": -1,
           "name": "routers/cart/index",
           "pathName": "routers/cart/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "routers/cart/index",
+          "pathName": "routers/cart/index",
           "scene": null
         }
       ]

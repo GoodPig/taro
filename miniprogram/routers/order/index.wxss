@@ -14,10 +14,7 @@
 }
 .item-choose{
     position: absolute;
-    z-index: 0;
-    right: 40rpx;
-    top: 40rpx;
-}
-.paddding-bottom{
-    height: 100rpx;
+    z-index: 9;
+    right: 20rpx;
+    top: 20rpx;
 }

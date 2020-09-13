@@ -1,7 +1,9 @@
 .cart{
     position: fixed;
     bottom: 40rpx;
-    right: 40rpx;
+    right: 0rpx;
+    left: 0;
+    height: 400rpx;
 }
 .footer-no-choose{
     text-align: right;
